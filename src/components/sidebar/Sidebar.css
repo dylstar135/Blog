@@ -1,13 +1,9 @@
 .sidebar {
-    flex: 3;
-    margin: 20px;
-    padding-bottom: 30px;
+    width: 250px;
+    margin-left: auto; /* Push the sidebar to the right */
     background-color: white;
     border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    width: 250px;
-   /* align-items: center;*/
+    padding: 20px;
 }
 
 .aboutImage {

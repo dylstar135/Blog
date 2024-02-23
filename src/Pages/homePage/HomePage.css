@@ -1,4 +1,6 @@
 .home {
-    display: flex;
-    justify-content: space-between; /* Ensure items are pushed to the sides */
+    position: relative; /* Ensure relative positioning */
+    display: flex; /* Use flexbox layout */
+    justify-content: flex-end; /* Align items to the end (right side) */
+    padding-right: 270px; /* Adjust to accommodate the sidebar width and margin */
 }
